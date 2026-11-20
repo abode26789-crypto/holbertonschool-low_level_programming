@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * string_length - returns the length of a string
+ * @str: string to measure
+ * Return: length of the string
+ */
 static unsigned int string_length(char *str)
 {
 	unsigned int length = 0;
